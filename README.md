@@ -25,15 +25,15 @@ Lending Library is an Internet-based virtual store where clients explore the col
 4. Visual Studio Code
 
 ## Getting Started
-Step 1: Create a virtual environment in the folder. 
+1. Create a virtual environment in the folder. 
 python3 -m venv venv
 source venv/bin/activate
-Step 2: Install packages with pip: -r requirements.txt
-Step 3: Create Database
-Step 4: Make Migrations.
+2. Install packages with pip: -r requirements.txt
+3. Create Database
+4. Make Migrations.
 $ python manage.py makemigrations
 $ python manage.py migrate
-Step 5: Create a new superuser
+5. Create a new superuser
 python manage.py createsuperuser
-Step 6: Run $ python manage.py runserver
+6. Run $ python manage.py runserver
    
